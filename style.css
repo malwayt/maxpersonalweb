@@ -1,0 +1,59 @@
+* {
+    
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+}
+
+html {
+    
+    background: #E0EAFC;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #CFDEF3, #E0EAFC);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #CFDEF3, #E0EAFC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    color: #555;
+    font-family: 'Merriweather', serif;
+    font-weight: 300;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+}
+
+body{
+    height: 100vh;
+    text-align: left;
+    padding-left: 15%;
+}
+
+h1 {
+    text-align: left;
+    text-align: top; 
+    font-size: 300%;
+    padding-right: 0%;
+    padding-bottom: 4%;
+}
+
+.link{
+    color: #555;
+}
+
+.link:hover{
+    text-decoration: none;
+    color:#111111;
+}
+
+h3 {
+    padding-bottom: 2%;
+}
+
+.bio{
+    padding-bottom: 2%;
+    font-size: 20px;
+    padding-right: 3%;
+}
+
+.investments {
+    padding-right: 15%;
+    line-height: 150%;
+    padding-bottom: 10%;
+}
+
